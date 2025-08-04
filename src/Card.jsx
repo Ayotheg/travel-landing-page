@@ -1,5 +1,6 @@
 import './Card.css';
 import './index.css'
+import './assets/farm-resolution.jpg'
 
 function Card() {
     return (
@@ -57,5 +58,6 @@ function Card() {
         </div>
     );
 }
+
 
 export default Card;
