@@ -1,0 +1,148 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+.farm-image{
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    z-index: -1;
+    min-height: 100px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.Azure{
+        padding: 2px;
+        margin-left: 35px;
+        font-family: monospace;
+        font-weight: 200;
+        z-index: 999;
+        overflow: -1;
+        position: absolute;
+        bottom: 350px;
+        justify-content: left;
+        color: #fff;
+        font-size: 45px;
+      font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Azure2{
+        justify-content: left;
+         color: #fff;
+          position: absolute;
+        bottom: 310px;
+         padding: 2px;
+        margin-left: 35px;
+        
+ 
+}
+
+.btn{
+    background-color: #fff;
+    font-family: sans-serif;
+    font-size: small;
+       justify-content: left;
+         color: #000000;
+          position: absolute;
+        bottom: 250px;
+        margin-left: 35px;
+        border-radius: 18px;
+         font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      padding: 10px 50px 10px 50px;
+}
+
+
+
+.bi{
+  color: #fff;
+  font-size: 2rem; 
+}
+.buttons{
+  margin-left: 50px;
+  gap: 10px;
+
+}
+
+@media screen and (min-width:768px){
+    .farm-image{
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-top:70px;
+
+}
+
+.Azure{
+  font-size: 60px;
+}
+.Azure2{
+  font-size: 20px;
+}
+
+.main{
+  position: relative;
+ 
+}
+
+
+}
+
+
+@media screen  and (max-width:600px) {
+  .background-hero{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    z-index: 999;
+  }
+.Azure{
+  color: #ffffff;
+  position: relative;
+  font-size: 52px;
+  margin: 0 5%;
+  z-index: 999;
+
+}
+.Azure2{
+  color: #ffffff;
+  position: relative;
+  font-size: 13px;
+  margin-top: -38px;
+  z-index: 999;
+}
+
+.btn{
+  position: relative;
+  top: -280px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.farm-image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  height: 550px; 
+  border-radius: 40px;
+  margin-top: 70px;
+}
+
+.buttons>.bi{
+  display: none;
+  
+}
+
+}
