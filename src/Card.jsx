@@ -1,6 +1,6 @@
 import './Card.css';
 import './index.css'
-import './assets/farm-resolution.jpg'
+import  farmImage from './assets/farm-resolution.jpg'
 
 function Card() {
     return (
@@ -20,7 +20,7 @@ function Card() {
                 }}
             >
                 <div className="card2 flex flex-col items-center justify-center" style={{ minWidth: '250px', background: '#fff', borderRadius: '1rem', overflow: 'hidden', margin:'35px' }}>
-                    <img src="./src/assets/farm-resolution.jpg" className="card-img-top w-46 h-48 rounded-t-xl" alt="..." />
+                    <img src={farmImage} className="card-img-top w-46 h-48 rounded-t-xl" alt="..." />
                     <div className="card-body text-black flex flex-col items-center justify-center">
                         <h5 className="card-title">Alone with Nature</h5>
                         <p className="card-text text-center">$100/person</p>
@@ -28,7 +28,7 @@ function Card() {
                      <i class="bi bi-arrow-right-circle-fill"></i> 
                 </div>
                 <div className="card2 flex flex-col items-center justify-center " style={{ minWidth: '250px', background: '#fff', borderRadius: '1rem', overflow: 'hidden' }}>
-                    <img src="./src/assets/farm-resolution.jpg" className="card-img-top w-46 h-48 rounded-t-xl" alt="..." />
+                    <img src={farmImage} className="card-img-top w-46 h-48 rounded-t-xl" alt="..." />
                     <div className="card-body text-black flex flex-col items-center justify-center">
                         <h5 className="card-title">Jeep Ride</h5>
                         <p className="card-text text-center">$200/person</p>
@@ -36,7 +36,7 @@ function Card() {
                      <i class="bi bi-arrow-right-circle-fill"></i> 
                 </div>
                 <div className="card2 flex flex-col items-center justify-center " style={{ minWidth: '250px', background: '#fff', borderRadius: '1rem', overflow: 'hidden' }}>
-                    <img src="./src/assets/farm-resolution.jpg" className="card-img-top w-46 h-48 rounded-t-xl" alt="..." />
+                    <img src={farmImage} className="card-img-top w-46 h-48 rounded-t-xl" alt="..." />
                     <div className="card-body text-black flex flex-col items-center justify-center">
                         <h5 className="card-title">Hiking Tour</h5>
                         <p className="card-text text-center">$150/person</p>
@@ -44,7 +44,7 @@ function Card() {
                      <i class="bi bi-arrow-right-circle-fill"></i> 
                 </div>
                 <div className="card2 flex flex-col items-center justify-center " style={{ minWidth: '250px', background: '#fff', borderRadius: '1rem', overflow: 'hidden' }}>
-                    <img src="./src/assets/farm-resolution.jpg" className="card-img-top w-46 h-48 rounded-t-xl" alt="..." />
+                    <img src={farmImage} className="card-img-top w-46 h-48 rounded-t-xl" alt="..." />
                     <div className="card-body text-black flex flex-col items-center justify-center">
                         <h5 className="card-title">Corners of the Island</h5>
                         <p className="card-text text-center">$220/person</p>
@@ -58,6 +58,5 @@ function Card() {
         </div>
     );
 }
-
 
 export default Card;
