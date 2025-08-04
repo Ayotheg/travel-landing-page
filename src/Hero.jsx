@@ -1,4 +1,5 @@
 import './Hero.css';
+import './assets/farm-resolution.jpg'
 
 
 function Hero() {
@@ -17,5 +18,6 @@ function Hero() {
         </div>
     );
 }
+
 
 export default Hero;
